@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="bg-purple-primary flex justify-around items-center border-white border-solid border-b-[0.5px] border-stone-400  max-w-full py-3 ">
       <div className="">
-        <Image src={logo} />
+        <Image src={logo} alt="logo image" />
       </div>
       <div className="text-base font-semibold flex gap-x-3">
         <Link href="/">Home</Link>
